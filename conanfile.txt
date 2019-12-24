@@ -1,0 +1,12 @@
+[requires]
+boost/1.72.0@conan/stable
+eigen/3.3.7@conan/stable
+gtest/1.10.0
+sundials/5.0.0@alashworth/stable
+tbb/2019_u9
+
+[generators]
+cmake_paths
+
+[options]
+boost:header_only=True
